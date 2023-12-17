@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+#mySidenav {
+     background-color: #111;
+     height: 100%;
+     left: 0;
+     overflow-x: hidden;
+     padding-top: 60px;
+     position: fixed;
+     top: 0;
+     transition: 0.5s;
+     width: 0;
+     z-index: 1;
+ }
+
+#mySidenav a {
+    color: #818181;
+    display: block;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#mySidenav a:hover {
+    color: #f1f1f1;
+}
+
+#menu-btn {
+    margin-right: 15px;
+}
